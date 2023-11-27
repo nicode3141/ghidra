@@ -47,6 +47,7 @@ public class RepositoryFileSystemTest extends AbstractGhidraHeadedIntegrationTes
 	private Repository repository;
 
 	private List<MyEvent> events = new ArrayList<>();
+	private List<MyEvent> oldEvents = new ArrayList<>();
 
 	@Before
 	public void setUp() throws Exception {
